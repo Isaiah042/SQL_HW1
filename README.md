@@ -12,10 +12,18 @@ Inner Join:
 The Inner join returns only the matching records from both the tables involved in the Join. Non-matching records are eliminated.
 Outer Join:
 The Outer Join retrieves the matching records as well as non-matching records from both the tables involved in the join in MySQL.
-Cross Join:
-If two or more tables are combined with each other without any condition then we call it cross join in MySQL. In cross join, each record of a table is joins with each record of another table.
 
 (Inner and Outer Join use ON clauses while Cross Join doesn't!!!1)
+
+Advance joins:
+
+Cross Join:
+If two or more tables are combined with each other without any condition then we call it cross join in MySQL. In cross join, each record of a table is joins with each record of another table.
+Natural Join:
+Associates columns of the SAME NAME in the joined tables with each other. Kinda of like INNER and LEFT OUTER JOIN the only difference is specifying the join cloumns is not needed.
+Self Join:
+Does as the name implies makes the table join into itself
+
 
 
 Inner Join
@@ -266,6 +274,25 @@ mysql> SELECT Employee.Id as EmployeeId, Name, Department, City, Title as Projec
 110 rows in set (0.03 sec)
 
 The total number of times values printed is based on what table start ON THE LEFT and how many rows of each value is based ON THE RIGHT table.
+
+Natural Join:
+Its like Inner and Left Outer Join but what it does differently is returns the results where the rows in each table match 
+
+Self Join:
+This keyword is used when a table is containg hierarchical data
+
+Set Theory: 
+Each object in a set is an element. Tables corresponds to a set and records corresponds with an element. You can also get subsets from a set. 
+Subsets are smaller sets of elements from the sets. Which can be gotten using the WHERE clause
+Cross producrs is a set that is created from 2 or more sets. Cross sets is a join.
+Lastly to create a set you can use intersection, difference, and union joins.
+
+Union:
+
+
+
+
+Union All:
 
 
 
