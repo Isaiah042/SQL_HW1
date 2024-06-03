@@ -1,6 +1,7 @@
 # SQL_HW1
 
 What are joins?
+
 They are to fetch the rows from two or more related tables
 Columns being joined have be compatiable with each other meaning the terms of data type and based on that common field the MySQL JOINS retrieves the data. 
 
@@ -10,6 +11,7 @@ Types of joins:
 
 Inner Join:
 The Inner join returns only the matching records from both the tables involved in the Join. Non-matching records are eliminated.
+
 Outer Join:
 The Outer Join retrieves the matching records as well as non-matching records from both the tables involved in the join in MySQL.
 
@@ -19,8 +21,10 @@ Advance joins:
 
 Cross Join:
 If two or more tables are combined with each other without any condition then we call it cross join in MySQL. In cross join, each record of a table is joins with each record of another table.
+
 Natural Join:
 Associates columns of the SAME NAME in the joined tables with each other. Kinda of like INNER and LEFT OUTER JOIN the only difference is specifying the join cloumns is not needed.
+
 Self Join:
 Does as the name implies makes the table join into itself
 
