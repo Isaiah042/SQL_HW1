@@ -24,7 +24,7 @@ Associates columns of the SAME NAME in the joined tables with each other. Kinda 
 Self Join:
 Does as the name implies makes the table join into itself
 
-
+=============================
 
 Inner Join
 An INNER JOIN returns the rows that have matching values of both table1 and table2. The ON clause specifies which columns to compare and what condition must be met for the rows to match.
