@@ -292,11 +292,16 @@ Cross producrs is a set that is created from 2 or more sets. Cross sets is a joi
 Lastly to create a set you can use intersection, difference, and union joins.
 
 Union:
-
-
+Allows you to combine two ir more sets in a single querey. Number, order must be the same but the data type msut be the same columns or of a compatible type. ORDERBY clause must be the final select statmeny
+The final column names come from the column names in your first SELECT statement.
+GROUP BY and HAVING clauses can be used in each query but can't change the final results.
+It removes duplicates but UNION ALL does not remove duplicate row and they will remain in the final result.
 
 
 Union All:
+This will do the same thing as UNION but not get rid of dupes
 
+Intersect:
+An INTERSECT combines two or more result sets and keeps only the unique values that are in all sets. The screenshot below shows the results of an INTERSECT.
 
 
