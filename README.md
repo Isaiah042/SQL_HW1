@@ -1,5 +1,5 @@
 # SQL_HW1
-
+```
 What are joins?
 
 They are to fetch the rows from two or more related tables
@@ -304,4 +304,4 @@ This will do the same thing as UNION but not get rid of dupes
 Intersect:
 An INTERSECT combines two or more result sets and keeps only the unique values that are in all sets. The screenshot below shows the results of an INTERSECT.
 
-
+```
